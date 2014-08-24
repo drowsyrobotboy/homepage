@@ -317,8 +317,9 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'images/{,*/}*.webp',
-                      'images/{,*/}*.png',
+                        'images/{,*/}*.png',
                         '{,*/}*.html',
+                        '{,*/}*.php',
                         'styles/fonts/{,*/}*.*'
                     ]
                 }]
