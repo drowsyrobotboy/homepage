@@ -28,15 +28,15 @@ a{
 #wish {
    font-size: 32px;
    text-align: center;
-   color: #666;
+   color: #E2663D;
    font-weight: 400;
    position:absolute;
    width:100%;
-   top:150px;
+   top:130px;
 }
 #bar {
   position:absolute;
-  top:220px;
+  top:200px;
   text-align:center;
   left:50%;
   margin-left:-400px;
@@ -49,7 +49,7 @@ a{
   box-sizing: border-box;
   padding:10px;
   border:none;
-  border-left: 2px solid #555;
+  border-left: 2px solid #E2663D;
   -webkit-box-shadow: 0 0 5px #ddd;
   box-shadow: 0 0 5px #ddd;
 }
@@ -64,18 +64,26 @@ a{
 .sites ul {
   list-style:none;
   padding:0;
+  margin:auto;
+  width:1200px;
 }
 .sites li {
   float:left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 25px;
-  line-height:20px;
+  margin: 15px;
+  width:210px;
+  padding:10px;
+  border-bottom: 1px solid #dcdcdc;
+  text-align:left;
+
 }
 .sites li img{
   height:20px;
-  margin-right:2px;
+  margin-top:2px;
+  margin-right:10px;
+  float:left;
 }
 .sites li a{
   font-size:16px;
@@ -83,5 +91,5 @@ a{
 }
 
 .sites li a:hover{
-  color: #222;
+  color: #31A5AD;
 }
